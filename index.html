@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+  
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calisma">
+        <form action="">
+            <span class="baslik">Taksit Hesaplama</span> <br>
+           <!-- <span>Fiyat</span>-->
+            <input type="text" id="fiyat" placeholder="Fiyat" onclick="tiklama()" autocomplete="off"> <br><br>
+            <input type="radio" name="taksit" id="3" value="3" checked> <span id="taksit3">  3 Taksit </span> <br>
+            <input type="radio" name="taksit"  id="6"value="6"> <span id="taksit6"> 6 Taksit</span> <br>
+            <input type="radio" name="taksit" id="9" value="9"> <span id="taksit9">9 Taksit</span> <br> <br>
+            <span id="taksitliFiyat">Taksitli Fiyatı : </span> <br><br>
+            <input type="button" value="Hesapla" id="btnHesapla" onclick="hesapla()">
+        </form>
+
+    </div>
+</body>
+</html>
